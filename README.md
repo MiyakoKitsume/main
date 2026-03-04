@@ -1,5 +1,39 @@
-Hello :3
-My name is Fox
-Im a programmer but a beginner i guess but anyways this is my first project that just took me 5 days 
-but ummmmm there are still error and bug i will fix it quickly and will be able to finished by collage gratuation maybe 4-5 years idk
-but yeh i hope that this project will be a lesson for a more bigger future project
+# Python Tkinter Notepad
+
+A simple desktop notepad application built with **Python Tkinter**.
+
+## Features
+
+- Open and read files (`.txt`, `.html`, and all file types)
+- Save text to a file
+- Basic edit actions:
+  - Cut
+  - Copy
+  - Paste
+  - Undo
+  - Redo
+- Vertical and horizontal scroll support
+- Fullscreen (maximized) startup window
+
+## Project Structure
+
+- `notepad.py` — main Tkinter application
+
+## Requirements
+
+- Python 3.x
+- Tkinter (usually included with standard Python installation)
+
+## How to Run
+
+1. Open a terminal in this folder.
+2. Run:
+
+```bash
+python notepad.py
+```
+
+## Notes
+
+- This project currently uses fixed default directories in file dialogs.
+- Keyboard shortcut labels are shown in the menu.
